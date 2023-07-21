@@ -37,9 +37,10 @@ def locate_cards(cards,query):
 tests = []
 #test0 = {'input':{'cards':[13,11,10,7,4,3,1,0],'query':0} ,'output':7}
 #test1 = {'input':{'cards':[7],'query':7} ,'output':0}
-#test2 = {'input':{'cards':[5,5,5,7,2,2,1,1],'query':7} ,'output':3}
+# test2 = {'input':{'cards':[5,5,5,7,2,2,1,1],'query':2} ,'output':4}
 test3 = {'input':{'cards':[8,8,7,6,5,5,1],'query':5} ,'output':4}
 #test4 = {'input':{'cards':[],'query':7} ,'output':''} # Will result in out of index
+#test5 = {'input':{'cards':[5,5,7,7,2,1,1],'query':2} ,'output':2}
 
 #tests.append(test0)
 #tests.append(test1)
